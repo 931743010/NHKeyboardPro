@@ -15,6 +15,10 @@
 		6097D08E1C96B9320055EDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6097D08C1C96B9320055EDCF /* LaunchScreen.storyboard */; };
 		6097D0991C96B9320055EDCF /* NHKeyboardProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097D0981C96B9320055EDCF /* NHKeyboardProTests.m */; };
 		6097D0A41C96B9320055EDCF /* NHKeyboardProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097D0A31C96B9320055EDCF /* NHKeyboardProUITests.m */; };
+		6097D0B41C96BB7A0055EDCF /* security_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6097D0B31C96BB7A0055EDCF /* security_logo.jpg */; };
+		60A6190D1C97A2AC00AB5904 /* NHKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A6190C1C97A2AC00AB5904 /* NHKeyboard.m */; };
+		60A619101C97D27800AB5904 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 60A6190F1C97D27800AB5904 /* 58.png */; };
+		C0D38CD1E000A86D12C29ED3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FF51BAB38C8B9F2D0DFEAF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		6097D09F1C96B9320055EDCF /* NHKeyboardProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHKeyboardProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6097D0A31C96B9320055EDCF /* NHKeyboardProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHKeyboardProUITests.m; sourceTree = "<group>"; };
 		6097D0A51C96B9320055EDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6097D0B31C96BB7A0055EDCF /* security_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = security_logo.jpg; sourceTree = "<group>"; };
+		60A6190B1C97A2AC00AB5904 /* NHKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHKeyboard.h; sourceTree = "<group>"; };
+		60A6190C1C97A2AC00AB5904 /* NHKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHKeyboard.m; sourceTree = "<group>"; };
+		60A6190F1C97D27800AB5904 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		66FF51BAB38C8B9F2D0DFEAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B6169131F13D77E1A679FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FCFECB9A439BFC4B557B0159 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D38CD1E000A86D12C29ED3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E2A7DC921450FA46F6BDA35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCFECB9A439BFC4B557B0159 /* Pods.debug.xcconfig */,
+				C9B6169131F13D77E1A679FA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6097D0721C96B9320055EDCF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				6097D0971C96B9320055EDCF /* NHKeyboardProTests */,
 				6097D0A21C96B9320055EDCF /* NHKeyboardProUITests */,
 				6097D07C1C96B9320055EDCF /* Products */,
+				1E2A7DC921450FA46F6BDA35 /* Pods */,
+				89B91092FC913384B9212B79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,7 @@
 		6097D07D1C96B9320055EDCF /* NHKeyboardPro */ = {
 			isa = PBXGroup;
 			children = (
+				60A6190A1C97A22800AB5904 /* KeyBoard */,
 				6097D0811C96B9320055EDCF /* AppDelegate.h */,
 				6097D0821C96B9320055EDCF /* AppDelegate.m */,
 				6097D0841C96B9320055EDCF /* ViewController.h */,
@@ -117,6 +141,7 @@
 		6097D07E1C96B9320055EDCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6097D0B11C96BB7A0055EDCF /* Resources */,
 				6097D07F1C96B9320055EDCF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +165,40 @@
 			path = NHKeyboardProUITests;
 			sourceTree = "<group>";
 		};
+		6097D0B11C96BB7A0055EDCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6097D0B21C96BB7A0055EDCF /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6097D0B21C96BB7A0055EDCF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				60A6190F1C97D27800AB5904 /* 58.png */,
+				6097D0B31C96BB7A0055EDCF /* security_logo.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		60A6190A1C97A22800AB5904 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				60A6190B1C97A2AC00AB5904 /* NHKeyboard.h */,
+				60A6190C1C97A2AC00AB5904 /* NHKeyboard.m */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		89B91092FC913384B9212B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66FF51BAB38C8B9F2D0DFEAF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6097D0A81C96B9320055EDCF /* Build configuration list for PBXNativeTarget "NHKeyboardPro" */;
 			buildPhases = (
+				B1D28A93F1244232489336AD /* Check Pods Manifest.lock */,
 				6097D0771C96B9320055EDCF /* Sources */,
 				6097D0781C96B9320055EDCF /* Frameworks */,
 				6097D0791C96B9320055EDCF /* Resources */,
+				A5137590DC884895F47BF41F /* Embed Pods Frameworks */,
+				F8DE9E8F310B1AA01415821D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +305,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A619101C97D27800AB5904 /* 58.png in Resources */,
+				6097D0B41C96BB7A0055EDCF /* security_logo.jpg in Resources */,
 				6097D08E1C96B9320055EDCF /* LaunchScreen.storyboard in Resources */,
 				6097D08B1C96B9320055EDCF /* Assets.xcassets in Resources */,
 				6097D0891C96B9320055EDCF /* Main.storyboard in Resources */,
@@ -265,6 +329,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5137590DC884895F47BF41F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D28A93F1244232489336AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DE9E8F310B1AA01415821D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6097D0771C96B9320055EDCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +384,7 @@
 			files = (
 				6097D0861C96B9320055EDCF /* ViewController.m in Sources */,
 				6097D0831C96B9320055EDCF /* AppDelegate.m in Sources */,
+				60A6190D1C97A2AC00AB5904 /* NHKeyboard.m in Sources */,
 				6097D0801C96B9320055EDCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,9 +524,13 @@
 		};
 		6097D0A91C96B9320055EDCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFECB9A439BFC4B557B0159 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = NHKeyboardPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHKeyboardPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +539,13 @@
 		};
 		6097D0AA1C96B9320055EDCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B6169131F13D77E1A679FA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = NHKeyboardPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHKeyboardPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +619,7 @@
 				6097D0AA1C96B9320055EDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6097D0AB1C96B9320055EDCF /* Build configuration list for PBXNativeTarget "NHKeyboardProTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +628,7 @@
 				6097D0AD1C96B9320055EDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6097D0AE1C96B9320055EDCF /* Build configuration list for PBXNativeTarget "NHKeyboardProUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +637,7 @@
 				6097D0B01C96B9320055EDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
